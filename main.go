@@ -33,6 +33,9 @@ func WatchDog() {
 func main() {
 	wait := make(chan int)
 	WatchDog()
+	//启动监控api
+
+	//启动rpc服务
 
 	<-wait
 	// fmt.Println(os.GetHostname())
